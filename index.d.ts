@@ -1,14 +1,14 @@
 /*! @brief 请求发送场景
  *
  */
-enum WXScene {
+export enum WXScene {
   WXSceneSession = 0 /**< 聊天界面    */,
   WXSceneTimeline = 1 /**< 朋友圈     */,
   WXSceneFavorite = 2 /**< 收藏       */,
   WXSceneSpecifiedSession = 3 /**< 指定联系人  */,
 }
 
-declare module 'react-native-wechat-lib' {
+declare module 'react-native-kpframework-wechat' {
   export function registerApp(appId: string, universalLink?: string): Promise<boolean>;
   export function isWXAppInstalled(): Promise<boolean>;
   export function isWXAppSupportApi(): Promise<boolean>;

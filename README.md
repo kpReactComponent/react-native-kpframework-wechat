@@ -1,11 +1,17 @@
 <img height="200" src="./weixin.png?raw=true">
 
+# 新版安装
+
+```sh
+npm install react-native-kpframework-wechat --save
+```
+
 # React-Native-Wechat-Lib
 
 [React Native] bridging library that integrates WeChat SDKs:
 
 - [x] iOS SDK 1.8.7.1
-- [x] Android SDK 5.5.6
+- [x] Android SDK 6.8.0
 
 ## 前言
 
